@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-noir-bg: #0c0b09;
+  --color-noir-panel: #12110e;
+  --color-noir-border: #2a2620;
+  --color-noir-text: #f2ede4;
+  --color-noir-muted: #8c857a;
+  --color-noir-gold: #d9a85b;
+  --color-noir-gold-hover: #c99648;
+}
+
+body {
+  background-color: #0c0b09;
+  color: #f2ede4;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
